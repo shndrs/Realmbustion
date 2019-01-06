@@ -12,6 +12,7 @@
 		2F987BCB21E21F1C00BF8A44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F987BC921E21F1C00BF8A44 /* Main.storyboard */; };
 		2F987BCD21E21F1E00BF8A44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F987BCC21E21F1E00BF8A44 /* Assets.xcassets */; };
 		2F987BD021E21F1E00BF8A44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F987BCE21E21F1E00BF8A44 /* LaunchScreen.storyboard */; };
+		2F987BD821E22C6E00BF8A44 /* Guitar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F987BD721E22C6E00BF8A44 /* Guitar.swift */; };
 		3BBF225B558C48BBA9F6B69B /* Pods_HaveFunWithRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333E3354EABC7D1BE344550F /* Pods_HaveFunWithRealm.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		2F987BCC21E21F1E00BF8A44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F987BCF21E21F1E00BF8A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F987BD121E21F1E00BF8A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F987BD721E22C6E00BF8A44 /* Guitar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guitar.swift; sourceTree = "<group>"; };
 		333E3354EABC7D1BE344550F /* Pods_HaveFunWithRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaveFunWithRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -67,6 +69,7 @@
 				2F987BCC21E21F1E00BF8A44 /* Assets.xcassets */,
 				2F987BCE21E21F1E00BF8A44 /* LaunchScreen.storyboard */,
 				2F987BD121E21F1E00BF8A44 /* Info.plist */,
+				2F987BD721E22C6E00BF8A44 /* Guitar.swift */,
 			);
 			path = HaveFunWithRealm;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F987BD821E22C6E00BF8A44 /* Guitar.swift in Sources */,
 				2F987BC821E21F1C00BF8A44 /* ViewController.swift in Sources */,
 				2F987BC621E21F1C00BF8A44 /* AppDelegate.swift in Sources */,
 			);
