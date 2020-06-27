@@ -12,8 +12,6 @@
 		2F987BCB21E21F1C00BF8A44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F987BC921E21F1C00BF8A44 /* Main.storyboard */; };
 		2F987BCD21E21F1E00BF8A44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F987BCC21E21F1E00BF8A44 /* Assets.xcassets */; };
 		2F987BD021E21F1E00BF8A44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F987BCE21E21F1E00BF8A44 /* LaunchScreen.storyboard */; };
-		2F987BD821E22C6E00BF8A44 /* Guitar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F987BD721E22C6E00BF8A44 /* Guitar.swift */; };
-		2F987BDA21E241B100BF8A44 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F987BD921E241B100BF8A44 /* GoogleService-Info.plist */; };
 		3BBF225B558C48BBA9F6B69B /* Pods_HaveFunWithRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333E3354EABC7D1BE344550F /* Pods_HaveFunWithRealm.framework */; };
 		F4EBE3DE24A76707009996C3 /* DBMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EBE3DD24A76707009996C3 /* DBMan.swift */; };
 		F4EBE3E324A7680C009996C3 /* CascadeDeleting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EBE3E224A7680C009996C3 /* CascadeDeleting.swift */; };
@@ -34,8 +32,6 @@
 		2F987BCC21E21F1E00BF8A44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F987BCF21E21F1E00BF8A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F987BD121E21F1E00BF8A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2F987BD721E22C6E00BF8A44 /* Guitar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guitar.swift; sourceTree = "<group>"; };
-		2F987BD921E241B100BF8A44 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		333E3354EABC7D1BE344550F /* Pods_HaveFunWithRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaveFunWithRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4EBE3DD24A76707009996C3 /* DBMan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBMan.swift; sourceTree = "<group>"; };
 		F4EBE3E224A7680C009996C3 /* CascadeDeleting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CascadeDeleting.swift; sourceTree = "<group>"; };
@@ -81,14 +77,11 @@
 			children = (
 				F4EBE3DF24A767E6009996C3 /* Other */,
 				F4EBE3DC24A7665C009996C3 /* Manager */,
-				2F987BD921E241B100BF8A44 /* GoogleService-Info.plist */,
 				2F987BC521E21F1C00BF8A44 /* AppDelegate.swift */,
 				2F987BC721E21F1C00BF8A44 /* ViewController.swift */,
 				2F987BC921E21F1C00BF8A44 /* Main.storyboard */,
-				2F987BCC21E21F1E00BF8A44 /* Assets.xcassets */,
 				2F987BCE21E21F1E00BF8A44 /* LaunchScreen.storyboard */,
 				2F987BD121E21F1E00BF8A44 /* Info.plist */,
-				2F987BD721E22C6E00BF8A44 /* Guitar.swift */,
 			);
 			path = HaveFunWithRealm;
 			sourceTree = "<group>";
@@ -121,6 +114,7 @@
 		F4EBE3DF24A767E6009996C3 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				F4EBE3F024A76A0B009996C3 /* Resource */,
 				F4EBE3ED24A769C3009996C3 /* Protocol */,
 				F4EBE3EA24A76969009996C3 /* Tool */,
 				F4EBE3E124A76801009996C3 /* Extension */,
@@ -153,6 +147,14 @@
 				F4EBE3EE24A769CD009996C3 /* DBDataSource.swift */,
 			);
 			path = Protocol;
+			sourceTree = "<group>";
+		};
+		F4EBE3F024A76A0B009996C3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				2F987BCC21E21F1E00BF8A44 /* Assets.xcassets */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,7 +218,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F987BD021E21F1E00BF8A44 /* LaunchScreen.storyboard in Resources */,
-				2F987BDA21E241B100BF8A44 /* GoogleService-Info.plist in Resources */,
 				2F987BCD21E21F1E00BF8A44 /* Assets.xcassets in Resources */,
 				2F987BCB21E21F1C00BF8A44 /* Main.storyboard in Resources */,
 			);
@@ -274,7 +275,6 @@
 				F4EBE3E324A7680C009996C3 /* CascadeDeleting.swift in Sources */,
 				F4EBE3DE24A76707009996C3 /* DBMan.swift in Sources */,
 				F4EBE3E924A76933009996C3 /* Strings.swift in Sources */,
-				2F987BD821E22C6E00BF8A44 /* Guitar.swift in Sources */,
 				2F987BC821E21F1C00BF8A44 /* ViewController.swift in Sources */,
 				2F987BC621E21F1C00BF8A44 /* AppDelegate.swift in Sources */,
 				F4EBE3EF24A769CD009996C3 /* DBDataSource.swift in Sources */,
