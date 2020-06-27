@@ -15,6 +15,7 @@
 		2F987BD821E22C6E00BF8A44 /* Guitar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F987BD721E22C6E00BF8A44 /* Guitar.swift */; };
 		2F987BDA21E241B100BF8A44 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F987BD921E241B100BF8A44 /* GoogleService-Info.plist */; };
 		3BBF225B558C48BBA9F6B69B /* Pods_HaveFunWithRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333E3354EABC7D1BE344550F /* Pods_HaveFunWithRealm.framework */; };
+		F4EBE3DE24A76707009996C3 /* DBMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EBE3DD24A76707009996C3 /* DBMan.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		2F987BD721E22C6E00BF8A44 /* Guitar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guitar.swift; sourceTree = "<group>"; };
 		2F987BD921E241B100BF8A44 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		333E3354EABC7D1BE344550F /* Pods_HaveFunWithRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaveFunWithRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4EBE3DD24A76707009996C3 /* DBMan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBMan.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		F4EBE3DC24A7665C009996C3 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				F4EBE3DD24A76707009996C3 /* DBMan.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4EBE3DE24A76707009996C3 /* DBMan.swift in Sources */,
 				2F987BD821E22C6E00BF8A44 /* Guitar.swift in Sources */,
 				2F987BC821E21F1C00BF8A44 /* ViewController.swift in Sources */,
 				2F987BC621E21F1C00BF8A44 /* AppDelegate.swift in Sources */,
