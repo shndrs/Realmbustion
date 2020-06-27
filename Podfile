@@ -7,7 +7,5 @@ target 'HaveFunWithRealm' do
   
   pod 'RealmSwift'
   pod 'SHNDStuffs' , '~> 1.1.0'
-  pod 'Firebase'
   
-
 end
