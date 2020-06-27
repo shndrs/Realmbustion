@@ -1,25 +1,25 @@
 PODS:
-  - Realm (3.13.1):
-    - Realm/Headers (= 3.13.1)
-  - Realm/Headers (3.13.1)
-  - RealmSwift (3.13.1):
-    - Realm (= 3.13.1)
-  - SHNDStuffs (1.1.0)
+  - Realm (5.1.0):
+    - Realm/Headers (= 5.1.0)
+  - Realm/Headers (5.1.0)
+  - RealmSwift (5.1.0):
+    - Realm (= 5.1.0)
+  - SHNDStuffs (1.1.3)
 
 DEPENDENCIES:
   - RealmSwift
   - SHNDStuffs (~> 1.1.0)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - Realm
     - RealmSwift
     - SHNDStuffs
 
 SPEC CHECKSUMS:
-  Realm: 50071da38fe079e0735e47c9f2eae738c68c5996
-  RealmSwift: 8a1e6a02b7a08cd17a31e3115143fb69fe5f3fb9
-  SHNDStuffs: 912e1f38fc1694d722d449c2a7bc1f3d6790ce49
+  Realm: bdea546851e37b4cf0a2400cef115c7c26fda488
+  RealmSwift: 70945aa168db93b215c460e9c8ef680261aa28af
+  SHNDStuffs: f0791c5cb968f3f901c8d90feeefe377f321819d
 
 PODFILE CHECKSUM: 0a63444cce339ce6086d5c1b40d880d568df564b
 

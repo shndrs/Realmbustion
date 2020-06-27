@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -65,6 +65,7 @@
 		2F987BC421E21F1C00BF8A44 /* HaveFunWithRealm */ = {
 			isa = PBXGroup;
 			children = (
+				F4EBE3DC24A7665C009996C3 /* Manager */,
 				2F987BD921E241B100BF8A44 /* GoogleService-Info.plist */,
 				2F987BC521E21F1C00BF8A44 /* AppDelegate.swift */,
 				2F987BC721E21F1C00BF8A44 /* ViewController.swift */,
@@ -92,6 +93,13 @@
 				333E3354EABC7D1BE344550F /* Pods_HaveFunWithRealm.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4EBE3DC24A7665C009996C3 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

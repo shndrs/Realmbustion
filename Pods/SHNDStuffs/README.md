@@ -16,8 +16,8 @@ for set UINavigationBar gradient and it's tintColor use the function below in vi
 override func viewDidLoad() {
     super.viewDidLoad()
         
-    SHNDNavigationBarGradient(leftColor: .darkGray,
-                              rightColor: .white,
+    SHNDNavigationBarGradient(firstColor: .darkGray,
+                              secondColor: .white,
                               tintColor: .black,
                               isHorizontal: true)
 }
@@ -66,12 +66,69 @@ if you wanna get an animation(shake, pulsate or flash) after you tapped the butt
 }
 
 ```
+
+# SHNDShimmerLabel
+Shimmer ,Shimmer ,Shimmer 😄, so simple and awesome as it should to be 😉:
+
+```Swift
+
+override func viewDidAppear(_ animated: Bool) {
+    super.viewDidAppear(animated)
+    
+    let builderObject = ShimmerObject.init(text: "shndRS",
+                                           font: UIFont(name: "Papyrus", size: 73)!,
+                                           textAlignment: .center, animationDuration: 2,
+                                           frame: CGRect(x: 0, y: 0, width: view.frame.width, height: 400),
+                                           parentView: view,
+                                           mainLabelTextColor: .orange,
+                                           maskLabelTextColor: .purple)
+
+    SHNDShimmerFactory.create(builder: builderObject)
+}
+
+```
+
+And this is how it looks: 
+
+
+![shndshimmer](https://user-images.githubusercontent.com/34839080/50724114-444a4880-10fd-11e9-8168-7eb1f75c7130.gif)
+
+
+
+
 # SHNDView, SHNDButton, SHNDImageView
 
 For using SHNDView, SHNDButton, SHNDImageView just put one of these classes into subclass of your objects, and that's set... you have AWESOME features in your NavigationInspector
 
 ![shndviewimage](https://user-images.githubusercontent.com/34839080/50561395-7c2d4680-0d1f-11e9-981a-be082bd8335d.png)
 
+
+# SHNDDynamicGradientView
+
+Have you ever seen Instagram login/sign up page Dynamic Gradient View? Well let me give you some good news, i've got something for you fellas here in SHNDStuffs that you can have that animation in your app, it's quite simple:
+
+```Swift
+
+let object = SHNDDynamicGradientViewObject.init(colorArray: colorArray,
+                                                duration: 8,
+                                                shndView: gradientView)
+
+SHNDDynamicGradientView(builder: object).animate()
+
+```
+ps: and colorArray is an array of UIColor tuple like this:
+
+```Swift
+var colorArray:[(firstColor:UIColor, secondColor:UIColor)] = []
+```
+go and append whatever colors you want into it:
+
+```Swift
+colorArray.append((firstColor: .purple, secondColor: .gray))
+colorArray.append((firstColor: .red, secondColor: .blue))
+colorArray.append((firstColor: .orange, secondColor: .brown))
+```
+and now you have it  😉
 
 ## Requirements
 Swift 4.0 or later
