@@ -16,6 +16,7 @@
 		2F987BDA21E241B100BF8A44 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F987BD921E241B100BF8A44 /* GoogleService-Info.plist */; };
 		3BBF225B558C48BBA9F6B69B /* Pods_HaveFunWithRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333E3354EABC7D1BE344550F /* Pods_HaveFunWithRealm.framework */; };
 		F4EBE3DE24A76707009996C3 /* DBMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EBE3DD24A76707009996C3 /* DBMan.swift */; };
+		F4EBE3E324A7680C009996C3 /* CascadeDeleting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EBE3E224A7680C009996C3 /* CascadeDeleting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		2F987BD921E241B100BF8A44 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		333E3354EABC7D1BE344550F /* Pods_HaveFunWithRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaveFunWithRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4EBE3DD24A76707009996C3 /* DBMan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBMan.swift; sourceTree = "<group>"; };
+		F4EBE3E224A7680C009996C3 /* CascadeDeleting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CascadeDeleting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 		2F987BC421E21F1C00BF8A44 /* HaveFunWithRealm */ = {
 			isa = PBXGroup;
 			children = (
+				F4EBE3DF24A767E6009996C3 /* Other */,
 				F4EBE3DC24A7665C009996C3 /* Manager */,
 				2F987BD921E241B100BF8A44 /* GoogleService-Info.plist */,
 				2F987BC521E21F1C00BF8A44 /* AppDelegate.swift */,
@@ -103,6 +106,22 @@
 				F4EBE3DD24A76707009996C3 /* DBMan.swift */,
 			);
 			path = Manager;
+			sourceTree = "<group>";
+		};
+		F4EBE3DF24A767E6009996C3 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F4EBE3E124A76801009996C3 /* Extension */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		F4EBE3E124A76801009996C3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F4EBE3E224A7680C009996C3 /* CascadeDeleting.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4EBE3E324A7680C009996C3 /* CascadeDeleting.swift in Sources */,
 				F4EBE3DE24A76707009996C3 /* DBMan.swift in Sources */,
 				2F987BD821E22C6E00BF8A44 /* Guitar.swift in Sources */,
 				2F987BC821E21F1C00BF8A44 /* ViewController.swift in Sources */,
