@@ -20,6 +20,7 @@
 		F4EBE3E524A7686A009996C3 /* CRUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EBE3E424A7686A009996C3 /* CRUD.swift */; };
 		F4EBE3E724A768A7009996C3 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EBE3E624A768A7009996C3 /* Typealias.swift */; };
 		F4EBE3E924A76933009996C3 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EBE3E824A76933009996C3 /* Strings.swift */; };
+		F4EBE3EC24A76979009996C3 /* Cruder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EBE3EB24A76979009996C3 /* Cruder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		F4EBE3E424A7686A009996C3 /* CRUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRUD.swift; sourceTree = "<group>"; };
 		F4EBE3E624A768A7009996C3 /* Typealias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
 		F4EBE3E824A76933009996C3 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		F4EBE3EB24A76979009996C3 /* Cruder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cruder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		F4EBE3DF24A767E6009996C3 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				F4EBE3EA24A76969009996C3 /* Tool */,
 				F4EBE3E124A76801009996C3 /* Extension */,
 				F4EBE3E424A7686A009996C3 /* CRUD.swift */,
 				F4EBE3E624A768A7009996C3 /* Typealias.swift */,
@@ -131,6 +134,14 @@
 				F4EBE3E224A7680C009996C3 /* CascadeDeleting.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		F4EBE3EA24A76969009996C3 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				F4EBE3EB24A76979009996C3 /* Cruder.swift */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +266,7 @@
 				2F987BD821E22C6E00BF8A44 /* Guitar.swift in Sources */,
 				2F987BC821E21F1C00BF8A44 /* ViewController.swift in Sources */,
 				2F987BC621E21F1C00BF8A44 /* AppDelegate.swift in Sources */,
+				F4EBE3EC24A76979009996C3 /* Cruder.swift in Sources */,
 				F4EBE3E524A7686A009996C3 /* CRUD.swift in Sources */,
 				F4EBE3E724A768A7009996C3 /* Typealias.swift in Sources */,
 			);
