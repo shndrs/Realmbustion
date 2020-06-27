@@ -18,6 +18,7 @@
 		F4EBE3DE24A76707009996C3 /* DBMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EBE3DD24A76707009996C3 /* DBMan.swift */; };
 		F4EBE3E324A7680C009996C3 /* CascadeDeleting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EBE3E224A7680C009996C3 /* CascadeDeleting.swift */; };
 		F4EBE3E524A7686A009996C3 /* CRUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EBE3E424A7686A009996C3 /* CRUD.swift */; };
+		F4EBE3E724A768A7009996C3 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EBE3E624A768A7009996C3 /* Typealias.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		F4EBE3DD24A76707009996C3 /* DBMan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBMan.swift; sourceTree = "<group>"; };
 		F4EBE3E224A7680C009996C3 /* CascadeDeleting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CascadeDeleting.swift; sourceTree = "<group>"; };
 		F4EBE3E424A7686A009996C3 /* CRUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRUD.swift; sourceTree = "<group>"; };
+		F4EBE3E624A768A7009996C3 /* Typealias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 			children = (
 				F4EBE3E124A76801009996C3 /* Extension */,
 				F4EBE3E424A7686A009996C3 /* CRUD.swift */,
+				F4EBE3E624A768A7009996C3 /* Typealias.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				2F987BC821E21F1C00BF8A44 /* ViewController.swift in Sources */,
 				2F987BC621E21F1C00BF8A44 /* AppDelegate.swift in Sources */,
 				F4EBE3E524A7686A009996C3 /* CRUD.swift in Sources */,
+				F4EBE3E724A768A7009996C3 /* Typealias.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
