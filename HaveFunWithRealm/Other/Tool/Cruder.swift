@@ -10,7 +10,9 @@ import Foundation
 import Foundation
 import RealmSwift
 
-final class Cruder<T: Object>: NSObject {
+final class Cruder<T: Object>: DBDataSource {
+    
+    typealias Realmject = T
     
     private lazy var realm: Realm = {
         return DBMan.shared.realm
