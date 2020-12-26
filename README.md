@@ -23,3 +23,11 @@ Cruder<RealmObject>().connect(actionType: .update, item: RealmObject(), newItem:
 ```Swift
 Cruder<RealmObject>().connect(actionType: .delete, item: RealmObject()) { (success, error) in }
 ```
+
+Author
+=======
+sahandraeisi1994@gmail.com, sahandraeisi@yahoo.com, [shndrs](https://linkedin.com/in/shndrs)
+
+License
+=======
+EZProgressHUD is available under the MIBSL-1.0 license. See the LICENSE file for more info.
