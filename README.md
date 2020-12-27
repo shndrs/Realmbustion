@@ -30,4 +30,4 @@ sahandraeisi1994@gmail.com, sahandraeisi@yahoo.com, [shndrs](https://linkedin.co
 
 License
 =======
-EZProgressHUD is available under the MIBSL-1.0 license. See the LICENSE file for more info.
+HaveFunWithRealm is available under the MIBSL-1.0 license. See the LICENSE file for more info.
